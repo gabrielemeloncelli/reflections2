@@ -1,0 +1,34 @@
+First reflections on diff/FD
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The diff immediately highlights the differences among two files (or better two versions of the same file).
+The developer can concentrate on the changes ignoring the lines that remained the same, which usually are the vast majority.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having the full history allows to detect when changes were introduced and find bugs that was not recognized in the test phase
+and went unrecognized through some releases.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Manual committing, when used properly, groups connected changes in a single version.
+You can also assign a title to the changes making it easy to remember the content of the version.
+On the other side with authomatic saving more activity and intermediate work is saved, which could be useful in case of discontinuous activity or larger logical changes.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+The version control systems which allow multiple files to be committed are oriented to activities, like computer programming, which often deal with related changes in multiple files.
+The version control systems which track only single file commits are oriented to activities (document/picture storage and upgrade) that concern single files with at most loose connections among them.
+
+How can you use the commands git log and git diff to view the history of files?
+The command git log displays the history of the committed version and indicates, for each commit, the version identifier and the version title.
+The command git diff displays the differences among two version. You have to specify which versions shall be compared using the two identifiers.
+Git diff displays all the changed files, with the added lines prepended with a plus sign and the deleted line prepended with a minus sign.
+Few unchanged lines are displayed before and after the changes to give the context.
+
+How might using version control make you more confident to make changes that could break something?
+You can always go back to the last bug-free version and compare the following version to see what changes were introduced.
+Finding the breaking change among this smallest set is much easiear than review the full application.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to try Git for controlling the version of a software project.
+
+
+
