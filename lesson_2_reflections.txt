@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates the hidden folder and the files it uses for version control.
+With this activity you are telling git that you will need version control for the files and subfolders contintained in the main folder.
+And manage them as as related, a single project or whatever is the definition in git parlance.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area groups files ready to be committed to the repository.
+The working directory simply contains files one needs for the job, including temporary files and working drafts.
+The staging area can group files that are logically connected, so that they are added to the repository in a single commit.
+
