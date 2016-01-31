@@ -8,3 +8,19 @@ The staging area groups files ready to be committed to the repository.
 The working directory simply contains files one needs for the job, including temporary files and working drafts.
 The staging area can group files that are logically connected, so that they are added to the repository in a single commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+You have to add all the files modified and/or added to accomplish the logical change to the staging area before committing the changes to the repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+The branches are helpful when you want to keep a working version while you try new features, bugfixes, code refactorings, specialized versions, different layouts, etc.
+You can create a new branch where implement the new features and then, when they are stable and/or validated, merge the changes back to the main branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When two branches are merged all the modifications present in both branches are merged in the result file list and file contents.
+The list of commits is merged in the target branch, using the timestamp order.
+Each commit keeps information about its parent and can be compared to it in order to get the actual modifications introduced.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves a lot of work but sometimes can do the wrong thing if complex changes were implemented.
+Manual merge is apparently safer but can lead to select/paste errors and put concentration at risk when validating large and repetitive changes.
+
