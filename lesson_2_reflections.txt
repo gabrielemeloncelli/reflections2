@@ -24,3 +24,5 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges 
 Automatic merging saves a lot of work but sometimes can do the wrong thing if complex changes were implemented.
 Manual merge is apparently safer but can lead to select/paste errors and put concentration at risk when validating large and repetitive changes.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+It gives a better control on what one has locally on his computer. If the project is shared, one might want to complete some steps before considering the changes made on the remote repository.
