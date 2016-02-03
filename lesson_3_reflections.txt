@@ -3,3 +3,13 @@ There are many reasons to use a remote repository:
 - when you use different computers to work on a project
 - when you collaborate with other people on the same project
 - when you want to have a central repository in case your computer will not be available (you cannot bring it with you, it is under repair, etc.)
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+- forks are copies of a cloud project to another cloud project
+- clones are loca copy of a remote or a local project
+- branches are separate modification threads of the same project
+
+Forks are used mainly to modify some open project and adapt to one's need without being part of the main project development team.
+Clones are used mainly for collaborative development. All the developers clone the cloud project and push the modifications back when done.
+Branches are used for implementing new features, refactor code, implement experimental modifications, etc. 
+They can be merged to the main branch if the result is good.
