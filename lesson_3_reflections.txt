@@ -13,3 +13,7 @@ Forks are used mainly to modify some open project and adapt to one's need withou
 Clones are used mainly for collaborative development. All the developers clone the cloud project and push the modifications back when done.
 Branches are used for implementing new features, refactor code, implement experimental modifications, etc. 
 They can be merged to the main branch if the result is good.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+
