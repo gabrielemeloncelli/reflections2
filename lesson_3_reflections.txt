@@ -17,3 +17,16 @@ They can be merged to the main branch if the result is good.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+The collaboration with GitHub can enjoy the benefits of many helping features.
+Sharing a remote project and pushing the changes from different PCs can speed-up the development.
+The easyer part is bugfixing, and introducing features with small crosstalk with the main branch.
+Where the changes are conflicting, it will take more effort to merge the changes and effectively join the efforts.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I would make changes in a separate branch when changes require a greater effort to be completed, are separate features, require experimental activities or there are other people working on the master branch on GitHub.
+Small bugfixes and marginal changes are better candidates to be performed directly on the master branch.
+Operating on a separate branch allows bugfixes and small adjustments to be done on the master branch while the changes are implemented in the separate branch.
+If the changes do not work as expected, they can easily be abandoned if they are on a separate branch.
+All the changes performed on the master branch, on the other side, are quickly available to be adopted in the software releases and to be merged in the other branches.
+
